@@ -1,0 +1,2 @@
+the baseimg python file computes a stiched panoramic image of the generated high resolution images (NAC images were used here)
+it defines a 1 degree by 1 degree square image array and stitches all the images lying in this area( passed to it in the filename variable and the nac_coords.csv) . It checks for overlap and position of the nac images  by calculating the selenographic coordinates for each pixels.
