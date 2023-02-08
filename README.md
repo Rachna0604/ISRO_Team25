@@ -10,3 +10,14 @@ This file contains 3 functions that are useful for finding overlapping images an
 
 3. The *cropimg(filename,ul,ur,ll,lr)* function returns a masked image from the input image and also takes the corner coordinates of the image as input.
 *This function requires cv2 library*
+
+# Orthographic_Plot.ipynb
+This file is useful for ploting an image either NAC images or TMC2 images on the orthographic projection of moon.
+
+This file requires following libraries to be pre installed:-
+(1) geographiclib
+(2) basemap from mpl_toolkits
+
+Above file uses function make_coorarr() from stitches.py to get the pixel coordinates of each pixel of image.
+Using basemap module we are able to plot each pixel on the orthogrophic projection.
+Using each pixel value we have ploted it based on grayscale. 
