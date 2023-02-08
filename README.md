@@ -23,3 +23,5 @@ This file requires following libraries to be pre installed:-
 2. Using basemap module we are able to plot each pixel on the orthogrophic projection.
 
 3. Using each pixel value we have ploted it based on *grayscale*. 
+
+For instance we have provided the orthographic_tmc_plot.png 
