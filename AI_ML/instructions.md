@@ -19,7 +19,7 @@ Original Image
 <br>
 <img title="Original Image" alt="Blurred TMC image" src="./image_crop.png" height=256>
 
-Super Resoluted Image
+Super Resoluted Image (16x)
 <br>
 <img title="Super Resoluted Image" alt="Super Resoluted TMC image" src="./SR2x.png" height=256>
 
